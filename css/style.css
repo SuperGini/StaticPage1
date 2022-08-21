@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #b3002a;
+  --white-color: #fff;
+  --gray-color:rgb(47, 46, 46);
+  --blue-color:#101058;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* BOX 1 position */
+
+header {
+  min-height: 5rem;
+}
+
+
+/* BOX  2 responsive positioning */
+
+.container {
+  display: flex;
+  align-self: center;
+  position: relative;
+}
+
+.car-container {
+  max-width: 40rem;
+
+}
+
+.car-image {
+  max-width: 100%;
+  display: block;
+}
+
+.form-container {
+  transition: all 0.5s;
+  max-width: 30rem;
+
+}
+
+footer {
+  min-height: 4rem;
+}
+
+/* ******************************************** */
+
+
+
+
+
+
+
+
